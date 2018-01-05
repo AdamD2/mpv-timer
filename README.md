@@ -23,6 +23,8 @@ Once the program recieves a start and end time, it will calculate the total
 elapsed time and print it to the screen for 5 seconds. After this time the user
 can display it again by pressing the print-time key, initially bound to C.
 
+An example video can be found [here](https://youtu.be/YZq98YdZDk8).
+
 ## TODO
 
 - Allow the keybindings to be set in input.conf

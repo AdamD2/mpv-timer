@@ -1,3 +1,15 @@
+--
+-- mpv-timer
+-- By AD2
+--
+-- A simple plugin for mpv which allows the user to set a starting time and an
+-- ending time and see the time elapsed between those points with millisecond
+-- precision.
+--
+-- Adjust keybindings by changing the quoted characters at the bottom of this
+-- document.
+--
+
 start_time = nil
 end_time = nil
 total_time = nil
