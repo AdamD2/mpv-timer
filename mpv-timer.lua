@@ -30,7 +30,8 @@ function set_start_time()
     start_time = mp.get_property_number("time-pos");
 
     mp.osd_message(
-        string.format("Start time is now at %d seconds", start_time), 
+        string.format("Start time is now at %s seconds", 
+                      seconds_to_time_string(start_time)), 
         1
     )
     time()
@@ -52,7 +53,8 @@ function set_end_time()
     end_time = mp.get_property_number("time-pos");
 
     mp.osd_message(
-        string.format("End time is now at %d seconds", end_time), 
+        string.format("End time is now at %s seconds", 
+                      seconds_to_time_string(end_time)), 
         1
     )
     time()
