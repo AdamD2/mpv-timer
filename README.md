@@ -16,12 +16,13 @@ scripts folder or running the program as
 
 The program is used by navigating to the starting frame (using arrow keys, '.'
 and ',' for frame advance or any other method of your choosing) then pressing
-the start key, which can be bound in input.conf as  
-```z script-message-to mpv-timer set-start-time``` 
-and the end key, which can be similarly bound in input.conf as
-```x script-message-to mpv-timer set-end-time```  
+the start key, initially bound to Z, then navigating to the end frame and pressing the
+end key, initially bound to X. 
 
 Once the program recieves a start and end time, it will calculate the total
 elapsed time and print it to the screen for 5 seconds. After this time the user
-can display it again by pressing a key bound as
-```c script-message-to mpv-timer print-time```
+can display it again by pressing the print-time key, initially bound to C.
+
+## TODO
+
+- Allow the keybindings to be set in input.conf
